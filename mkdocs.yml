@@ -1,0 +1,13 @@
+site_name: Rahul Notes
+
+nav:
+  - Homepage: 'index.md'
+  - Docker: docker/docker-notes.md
+  - Wiremock: wiremock/wiremock.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - toc:
+      permalink: true
