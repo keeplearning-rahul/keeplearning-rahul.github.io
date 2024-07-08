@@ -2,6 +2,7 @@ site_name: Rahul Notes
 
 theme:
   name: material
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -10,7 +11,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
+
   language: en
+
   palette:
     - scheme: default
       toggle:
@@ -24,9 +27,16 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
+
   plugins:
     - social
     - search
+
+  extra:
+    social:
+      - icon: fontawesome/brands/linkedin
+        link: www.linkedin.com/in/rahul-tripathi-6725a720
+
 
 markdown_extensions:
   - toc:
